@@ -16,7 +16,7 @@ class Torrent(webdriver.Chrome):
                                            {"profile.default_content_setting_values.notifications": 2
                                             })
 
-    def __init__(self, driver_path=r"C:\Users\www.abcom.in\Music", tear_down=False):
+    def __init__(self, driver_path=r"C:\Users\Aljozy\Music", tear_down=False):
         self.tear_down = tear_down
         self.driver_path = driver_path
         os.environ['PATH'] += self.driver_path
