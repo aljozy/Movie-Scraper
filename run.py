@@ -4,6 +4,10 @@ try:
 
     with Torrent() as bot:
         bot.muvi()
+        print('next run')
+        bot.tv()
+        # bot.top100_tv()
+
 except Exception as e:
     if 'in PATH' in str(e):
         print(
